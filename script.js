@@ -37,7 +37,7 @@ function ifDzik()
 {
     var p = document.getElementById("liczba");
     p.innerText = i;
-    if(i%7==0 || i==7 || i.toString()[1] == "7")
+    if(i%7==0 || i==7 || i.toString()[0] == "7" || i.toString()[1] == "7" || i.toString()[2] == "7")
     {
         lost = true;
         setTimeout(ifLost, t*1.60)
