@@ -40,7 +40,7 @@ function ifDzik()
     if(i%7==0 || i==7 || i.toString()[1] == "7")
     {
         lost = true;
-        setTimeout(ifLost, t*1.50)
+        setTimeout(ifLost, t*1.60)
 
         
     }
