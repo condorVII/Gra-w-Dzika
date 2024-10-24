@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" defer></script>
+    <link rel=stylesheet type=text/css href=style.css>
+    <title>-- Dzik --</title>
+</head>
+<body>
+    <div id="trudnosc" class="b">
+        <p> Poziom Trudności </p>
+        <input type="button" value="Łatwy" onclick="latwy()" id="latwy">
+        <input type="button" value="Średni" onclick="sredni()" id="sredni">
+        <input type="button" value="Trudny" onclick="trudny()" id="trudny">
+    </div>
+    <div class="a">
+        <p style="opacity:100%;"> Zasady Gry</p>
+        Witaj! Przedstawiamy grę "Dzik". 
+        Po kliknięciu przycisku START <a class="liczba">czerwona </a>liczba po lewej rosnąć.
+        Kiedy napotkasz liczbę zawierającą w sobie cyfrę 7 lub będącą podzielną przez 7, kliknij jak najszybciej w zdjęcie dzika poniżej. 
+        Jeżeli tego nie zrobisz -- przegrasz... 
+        Dodatkowo jeżeli klikniesz w obrazek w momencie, w którym liczba nie spełnia warunków by być dzikiem -- również przegrsz. 
+        To wszystko miłej zabawy życzymy. <br>
+    </div>
+    <div id="start"><br><input type="button" value="START" onclick="start()" id="startb"></div>
+    <div>
+    <p id="liczba" class="liczba">0</p><br>
+    <div class="dzik"> 
+    <img src="dzik.png" onclick="setFalse()" alt="dzik">
+    </div>
+    <br>
+    <p>Rekord</p>
+    <div id="rekord">0</div>
+    
+    </div>
+
+</body>
+</html>

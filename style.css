@@ -1,0 +1,36 @@
+div{
+    text-align: center;
+}
+
+.blocked {
+    color: red;
+    background-color: brown;
+}
+body{
+    zoom: 140%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    background-image: url(tlo.jpg);
+    color: azure;
+}
+.a{
+    float: right;
+    height: 100%;
+    width: 25%;
+}
+.b{
+    float: left;
+    height: 100%;
+    width: 25%;
+    font-weight: bolder;
+}
+.dzik{
+    margin-left: 25%;
+    width: 50%;
+}
+.liczba{
+    color: red;
+}
+
+
